@@ -17,8 +17,8 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
     [
-      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/shershaah98"),
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/jokerisback777")
+      Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/danger_zone_789"),
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/danzer_zone678")
     ]
   ]
 
@@ -98,7 +98,7 @@ extra_msg = f"""
   ⦁ {hl}ꜱʀᴀɪᴅ (ᴄᴏᴜɴᴛᴇʀ) (ᴜꜱᴇʀɴᴀᴍᴇ)
   ⦁ {hl}ꜱʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 
-**© @SAIKO789 ~ @SAIKO789**
+**© @SAIKO678 ~ @SAIKO678**
 """
 
 
@@ -110,7 +110,7 @@ owner_msg = f"""
  ❖ ᴜꜱᴀɢᴇ :
   ⦁{hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-**© @SAIKO789 ~ @SAIKO789**
+**© @SAIKO678 ~ @SAIKO678**
 """      
           
 raid_msg = f"""
@@ -134,7 +134,7 @@ raid_msg = f"""
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ᴅʀʀᴀɪᴅ (ᴜꜱᴇʀɴᴀᴍᴇ)
 
-**© @SAIKO789 ~ @SAIKO789**
+**© @SAIKO678 ~ @SAIKO678**
 """
 
 spam_msg = f"""
@@ -177,7 +177,7 @@ spam_msg = f"""
   ⦁ {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
   ⦁ {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @SAIKO789 ~ @SAIKO789**
+** © @SAIKO678 ~ @SAIKO678**
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -204,13 +204,13 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
               [
-                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/shershaah98"),
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/jokerisback777")
+                Button.url("• ᴜᴘᴅᴀᴛᴇ •", "https://t.me/danger_zone_789"),
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/danzer_zone678")
               ]
             ]
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sʜᴇʀsʜᴀʜ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SAIKO789 || @SAIKO789", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sʜᴇʀsʜᴀʜ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SAIKO678 || @SAIKO678", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -229,7 +229,7 @@ async def help_spam(event):
               buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
               ) 
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sʜᴇʀsʜᴀʜ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SAIKO789 || @SAIKO789", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sʜᴇʀsʜᴀʜ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SAIKO678 || @SAIKO678", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -248,7 +248,7 @@ async def help_raid(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
           )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sʜᴇʀsʜᴀʜ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SAIKO789 || @SAIKO789", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sʜᴇʀsʜᴀʜ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SAIKO678 || @SAIKO678", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -267,4 +267,4 @@ async def help_extra(event):
             buttons=[[Button.inline("• ʙᴀᴄᴋ •", data="help_back"),],],
             )
     else:
-        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sʜᴇʀsʜᴀʜ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SAIKO789 || @SAIKO789", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ᴍᴄ ʙᴄ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ sʜᴇʀsʜᴀʜ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SAIKO678 || @SAIKO678", cache_time=0, alert=True)
